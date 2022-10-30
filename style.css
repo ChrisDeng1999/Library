@@ -8,10 +8,14 @@
 body {
     height: 100vh;
     width: 100%;
+    background: #e0e4ee;
+}
+
+.books {
+    height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #e0e4ee;
 }
 
 .book-1,
@@ -19,6 +23,7 @@ body {
 .book-3 {
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
@@ -161,4 +166,29 @@ body {
 .header {
     top: 0;
     margin: 0 auto;
+}
+
+
+h2 {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.cover-1 h2,
+.cover-2 h2 {
+    left: 50px;
+}
+
+.cover-3 h2 {
+    left: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 55px;
 }
