@@ -20,15 +20,15 @@ const Projects = () => {
                 <h1 className="chapter-title">Projects</h1>
                 <div className='space'></div>
                 <div className='personal-b'>
-                    <div className='project-box' href = "https://benefique-chocolatine-69489.herokuapp.com/" target = "_blank" rel = "noreferrer"><img src = {battleStrategy} alt ="battlestrategy"></img></div>
+                    <a href = "https://benefique-chocolatine-69489.herokuapp.com/" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {battleStrategy} alt ="battlestrategy"></img></div></a> 
                     <div className='title'>BattleStrategy</div>
                 </div>
                 <div className='personal'>
-                    <div className='project-box' href = "https://github.com/ChrisDeng1999/California_Road_Trip_Planner" target = "_blank" rel = "noreferrer"><img src = {caliPlanner} alt ="California Road Trip Planner"></img></div>
+                    <a href = "https://github.com/ChrisDeng1999/California_Road_Trip_Planner" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {caliPlanner} alt ="California Road Trip Planner"></img></div></a>
                     <div className='title'>California Road Trip Planner</div>
                 </div>
                 <div className='personal'>
-                    <div className='project-box' href = "https://guarded-reef-56811.herokuapp.com/" target = "_blank" rel = "noreferrer"><img src = {mixEasy} alt ="MixMe"></img></div>
+                    <a href = "https://guarded-reef-56811.herokuapp.com/" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {mixEasy} alt ="MixMe"></img></div></a>
                     <div className='title'>Mix Me</div>
                 </div>      
               </article>
