@@ -7,7 +7,7 @@ const Home = () => {
     return( 
     <div className='container'> 
     <div className='row'> 
-    <div className='books'>  
+    <div id ='books-1'>  
     <div className='book-1 col-4'>
         <AboutBook />
     </div>

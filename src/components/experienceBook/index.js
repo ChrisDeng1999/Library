@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Picture from '../../imgs/cdeng-img.jpg';
 
 
 const experienceBook = () => {
     return( 
-    <div className = "books">  
+    <div id = "books-3">  
         <div className="cover-3"><h2>Experience</h2></div>
         <div className="page-3"></div>
         <div className="page-3"></div>
         <div className="page-3"></div>
         <div className="page-3"></div>
         <div className="page-3"></div>
-        <div className="last-page-3" onClick={openBookThree}>
+        <Link to ='/experience' className="last-page-3">
             <img src = {Picture} alt ="Chris Deng"></img>
             <p id="demo3"></p>
-        </div>
+        </Link>
         <div className="back-cover-3"></div>
     </div>
 );
@@ -23,9 +24,6 @@ const experienceBook = () => {
 
 
 
-function openBookThree() {
-    document.getElementById("demo3").innerHTML = "Hello World";
-}
 
 
 export default experienceBook;
