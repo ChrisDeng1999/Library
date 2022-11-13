@@ -1,6 +1,10 @@
 import React from 'react';
 import AboutBook from '../../components/aboutBook';
 import ExperienceBook from '../../components/experienceBook';
+import './Project.css';
+import mixEasy from '../../imgs/mixEasySS.jpg';
+import battleStrategy from '../../imgs/readme_intro.jpg';
+import caliPlanner from '../../imgs/Screenshot_of_project.png';
 
 const Projects = () => {
     return( 
@@ -14,15 +18,19 @@ const Projects = () => {
               </div>
               <article>
                 <h1 className="chapter-title">Projects</h1>
-                <div className='personal'>
-                    <div className='project-box'>
-                        <p>BattleStrategy</p>
-                    </div>
+                <div className='space'></div>
+                <div className='personal-b'>
+                    <div className='project-box' href = "https://benefique-chocolatine-69489.herokuapp.com/" target = "_blank" rel = "noreferrer"><img src = {battleStrategy} alt ="battlestrategy"></img></div>
+                    <div className='title'>BattleStrategy</div>
                 </div>
-
-   
-                
-            
+                <div className='personal'>
+                    <div className='project-box' href = "https://github.com/ChrisDeng1999/California_Road_Trip_Planner" target = "_blank" rel = "noreferrer"><img src = {caliPlanner} alt ="California Road Trip Planner"></img></div>
+                    <div className='title'>California Road Trip Planner</div>
+                </div>
+                <div className='personal'>
+                    <div className='project-box' href = "https://guarded-reef-56811.herokuapp.com/" target = "_blank" rel = "noreferrer"><img src = {mixEasy} alt ="MixMe"></img></div>
+                    <div className='title'>Mix Me</div>
+                </div>      
               </article>
               <div className = "foot">
                 <ol id="page-numbers">
