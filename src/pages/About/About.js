@@ -21,6 +21,7 @@ const About = () => {
                   with a degree in Business Administration and an emphasis in
                   Finance.
                 </p>
+                <br></br>
                 <p>
                   During my second year of college, I decided to pick
                   up a part-time job at Mathnasium, and I have been with the
@@ -31,6 +32,7 @@ const About = () => {
                   graduating, however, I decided to pursue a passion of mine,
                   being a developer. 
                 </p>
+                <br></br>
                 <p>
                   And in May of 2022, I took part in the UCLA
                   Full Stack Web Development Coding Boot Camp. There I was able
@@ -38,12 +40,21 @@ const About = () => {
                   Node.js, Express.js, MySQL(Sequalize), MongoDB(Mongoose),
                   React.js, and responsive web design. I worked in teams as a
                   team leader in charge of daily scruming, assigning tasks, and
-                  making sure each team member is using their time efficiently
+                  ensuring each team member is using their time efficiently
                   and effectively. I've directed my team members towards an MVP
                   while also keeping in mind a simple and intuitive UI. I am
                   extremely thrilled to continue to learn and expand my
                   knowledge and skill set as a developer.
                 </p>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
               </article>
               <div className="foot">
                 <ol id="page-numbers">
