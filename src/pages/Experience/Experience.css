@@ -30,6 +30,9 @@ section {
     width: 100%;
 }
 
+.perspective3 {
+    perspective: none;
+}
 
 
 /*** OPEN BOOK ***/
@@ -128,19 +131,12 @@ section {
     max-width: 28.125em;
 }
 
-.open-book article p {
-    text-indent: 2em;
+.exp {
+    width: 300px;
 }
 
-.open-book .chapter-title + p:first-of-type {
-    text-indent: 0;
-}
-
-.open-book .chapter-title + p:first-of-type:first-letter {
-    float: left;
-    font: 700 3em/0.65 'Playfair Display', sans-serif;
-    padding: 0.15em 0.05em 0 0;
-    text-transform: uppercase;
+.bold {
+    font-weight: 600;
 }
 
 .open-book article > ul,
@@ -223,8 +219,12 @@ section {
         position: relative;
     }
 
+    .perspective3:before {
+        background: rgb(163, 197, 235);
+    }
+
     .open-book:before {
-        background-color: white;
+
         border-radius: 0.25em;
         bottom: -1em;
         content: '';

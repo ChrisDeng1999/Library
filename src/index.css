@@ -64,13 +64,28 @@ body {
 .back-cover-3 {
     height: 300px;
     width: 260px;
-    background: #353755;
     border-radius: 2px 20px 20px 2px;
     position: absolute;
     box-shadow: 1px 1px 10px gray;
     transform: rotateX(10deg); 
     transform-origin: center left;
 }
+
+.cover-1,
+.back-cover-1 {
+    background: rgb(235, 163, 163);
+}
+
+.cover-2,
+.back-cover-2 {
+    background: rgb(163, 235, 187);
+}
+
+.cover-3,
+.back-cover-3 {
+    background: rgb(163, 197, 235);
+}
+
 .page-1,
 .page-2,
 .page-3,
@@ -173,7 +188,6 @@ body {
 
 
 h2 {
-    color: white;
     position: relative;
     top: 10px;
 }

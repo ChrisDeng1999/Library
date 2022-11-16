@@ -12,7 +12,7 @@ const Projects = () => {
         <div className ='row'>
         <div id="wrapper">
           <div id="contain">
-            <section className="open-book">
+            <section className="open-book perspective2">
               <div className = "head">
                 <h6>Chris Deng</h6>
               </div>

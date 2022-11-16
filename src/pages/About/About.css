@@ -37,6 +37,9 @@ article p {
     font-size: 20px;
 }
 
+.perspective1 {
+    perspective: none;
+}
 
 /*** OPEN BOOK ***/
 .open-book {
@@ -135,8 +138,11 @@ article p {
         position: relative;
     }
 
-    #contain .open-book:before {
-        
+    .perspective1:before {
+        background-color: rgb(235, 166, 163);
+    }
+
+    .open-book:before {
         border-radius: 0.25em;
         bottom: -1em;
         content: '';
