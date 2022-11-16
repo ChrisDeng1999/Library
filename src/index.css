@@ -7,8 +7,9 @@
 
 body {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: #e0e4ee;
+    overflow-x: hidden;
 }
 
 #books-1,
