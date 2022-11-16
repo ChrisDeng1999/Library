@@ -6,14 +6,11 @@
     padding: 2rem;
     height: 5rem;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 
 .fet {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
 }
