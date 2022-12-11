@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00e8df20.css",
+    "main.js": "/static/js/main.60c90224.js",
+    "static/media/readme_intro.jpg": "/static/media/readme_intro.de769f39084145341fde.jpg",
+    "static/media/Screenshot_of_project.png": "/static/media/Screenshot_of_project.80d11c91f2d91baeed69.png",
+    "static/media/cdeng-img.jpg": "/static/media/cdeng-img.0796f6def765154555d5.jpg",
+    "static/media/mixEasySS.jpg": "/static/media/mixEasySS.24b650922208c54f0050.jpg",
+    "static/media/Chris_Deng_Resume_Placeholder.pdf": "/static/media/Chris_Deng_Resume_Placeholder.09ce172fd04f6dc97b27.pdf",
+    "index.html": "/index.html",
+    "main.00e8df20.css.map": "/static/css/main.00e8df20.css.map",
+    "main.60c90224.js.map": "/static/js/main.60c90224.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00e8df20.css",
+    "static/js/main.60c90224.js"
+  ]
+}
