@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Picture from '../../imgs/cdeng-img.jpg';
+import Picture from '../../imgs/projectImage.jpg';
 
 
 const projectBook = () => {

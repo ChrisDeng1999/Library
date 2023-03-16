@@ -1,11 +1,11 @@
 import React from 'react';
-
+import './index.css';
 
 
 const Header = () => {
     return( 
     <div className="homePage">
-       <header><h1>Chris Deng's Emporium</h1></header>
+       <header className='title'><h1>Chris Deng's Emporium</h1></header>
     </div>
     );
 };
