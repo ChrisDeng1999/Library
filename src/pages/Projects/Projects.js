@@ -20,7 +20,7 @@ const Projects = () => {
                 <h1 className="chapter-title">Projects</h1>
                 <div className='space'></div>
                 <div className='personal-b'>
-                    <a href = "https://benefique-chocolatine-69489.herokuapp.com/" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {battleStrategy} alt ="battlestrategy"></img></div></a> 
+                    <a href = "https://github.com/ChrisDeng1999/BattleStrategy" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {battleStrategy} alt ="battlestrategy"></img></div></a> 
                     <div className='title'>BattleStrategy</div>
                 </div>
                 <div className='personal'>
@@ -28,7 +28,7 @@ const Projects = () => {
                     <div className='title'>California Road Trip Planner</div>
                 </div>
                 <div className='personal'>
-                    <a href = "https://guarded-reef-56811.herokuapp.com/" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {mixEasy} alt ="MixMe"></img></div></a>
+                    <a href = "https://github.com/ChrisDeng1999/Mix-Me" target = "_blank" rel = "noreferrer"><div className='project-box'><img src = {mixEasy} alt ="MixMe"></img></div></a>
                     <div className='title'>Mix Me</div>
                 </div>      
               </article>
